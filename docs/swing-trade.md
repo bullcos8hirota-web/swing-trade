@@ -1,7 +1,7 @@
 # 設計メモ — スイングトレード支援アプリ
 
-`swing/` に置いた、SBI証券での日本株スイングトレードを支援するアプリの設計。
-録音メモアプリ(`app/`)と同じ構成(React + Vite + TypeScript + Tailwind + Dexie + Zustand)で、
+このリポジトリは、SBI証券での日本株スイングトレードを支援するアプリの設計。
+録音メモアプリ(recording-memo リポジトリ)と同じ構成(React + Vite + TypeScript + Tailwind + Dexie + Zustand)で、
 サーバーを持たずブラウザ内で完結する。スマホでの利用を前提としたPWA。
 
 ## 1. 何を解く道具か
@@ -25,7 +25,7 @@
 ## 2. 構成
 
 ```
-swing/src/
+src/
 ├── lib/
 │   ├── market/
 │   │   ├── indicators.ts   SMA/EMA/RSI/MACD/ボリンジャー/ATR/高安/クロス判定

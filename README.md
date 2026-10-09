@@ -58,7 +58,7 @@ PWA(ホーム画面に追加して使えるWebアプリ)として作ってあり
 ## 開発
 
 ```bash
-cd swing
+cd swing-trade
 npm install
 npm run dev      # http://localhost:5173
 npm run dev:lan  # 同じWi-Fiのスマホから実機確認する場合
@@ -71,7 +71,7 @@ npm run dev:lan  # 同じWi-Fiのスマホから実機確認する場合
 
 | 項目 | 値 |
 | --- | --- |
-| ルートディレクトリ | `swing` |
+| ルートディレクトリ | (リポジトリ直下) |
 | ビルドコマンド | `npm run build` |
 | 出力ディレクトリ | `dist` |
 | フレームワーク | Vite |
@@ -79,7 +79,7 @@ npm run dev:lan  # 同じWi-Fiのスマホから実機確認する場合
 `VITE_BASE_PATH` はドメイン直下に置くなら設定不要です。
 サブディレクトリに置く場合だけ `/配下のパス/` を指定してください。
 
-CI(`.github/workflows/swing-ci.yml`)はビルドとテストを走らせるだけで、
+CI(`.github/workflows/ci.yml`)はビルドとテストを走らせるだけで、
 どこにも公開しません。
 
 その他のコマンド:
